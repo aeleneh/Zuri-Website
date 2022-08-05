@@ -1,0 +1,156 @@
+@import url('http://fonts.cdnfonts.com/css/averta-blackitalic');
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: 'Averta-Regular', sans-serif;
+}
+p,h2,h3,h4{
+ color: #53565a;
+}
+.first{
+ height: 800px;
+ background-image: url(https://zuri.team/img/hero-bg.svg);
+ background-size: cover;
+ background-position: center center;
+ background-repeat: no-repeat;
+ background-color: #fff6f6;
+ font-size: 1rem;
+ font-weight: 400;
+ line-height: 1.5;
+}
+.team{
+ margin-top: 5%;
+ margin-bottom: 5%;
+ display: inline-block;
+ position: relative;
+ right: -450px;
+}
+.learn{
+color: #474b4f;
+text-align: center;
+margin-top: 2.5%;
+margin-bottom: 4%;
+}
+.unlock{
+ text-align: center;
+ margin-top: 2%;
+ margin-bottom: 5.5%;
+ margin-left: 15%;
+ margin-right: 15%;
+}
+a{
+color: #f32236;
+text-decoration-line: none;
+}
+.btn1{
+ font-size: 18px;
+ color: #fff6f6;
+ background-color:#f32236;
+ border-color: #f32236;
+ border-width: 1px;
+ margin: 25px;
+ display: inline-block;
+ position: relative;
+ right: -250px;
+ padding: 15px 30px;
+}
+.btn1:active{
+ display: inline-block;
+ border-width: 2px;
+ border-color: rgb(3, 3, 31);
+ background-color: white;
+ border-radius: 3px;
+}
+.btn2:active{
+ display: inline-block;
+ border-width: 2px;
+ border-color: rgb(3, 3, 31);
+ background-color: #f32236;
+ border-radius: 3px;
+}
+.btn2{
+ font-size: 15px;
+ color: #f32236;
+ background-color: white;
+ border-color: #f32236;
+ border-width: 1px;
+ margin: 25px;
+ display: inline-block;
+ position: relative;
+ right: -220px;
+ padding: 15px 30px;
+}
+.by{
+ color:#f32236;
+ font-weight: 100;
+ font-size: 15px;
+ line-height: 40px;
+ text-align: center;
+ margin-top: 100px;
+ margin-bottom: 8px;
+}
+.cater1{
+ font-size: 24px;
+ font-weight: 100;
+ line-height: 40px;
+ text-align: center;
+ margin-top: 8px;
+ margin-bottom: 8px;
+ }
+ .cater2{
+  font-size: 24px;
+  font-weight: 100;
+  line-height: 40px;
+  text-align: center;
+  margin-top: 8px;
+  margin-bottom: 20px;
+ }
+ .third{
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  margin-top: 5px;
+ }
+ .training{
+  background-color: #fff6f6;
+  margin-left: 25px;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  width: 140%;
+ }
+ .training-pic{
+  margin-top: 60px;
+  margin-bottom: 50px;
+  margin-left: 35px;
+  margin-right: 30px;
+ }
+ .understand{
+  text-align: left;
+  margin-left: 20px;
+  margin-right: 35px;
+  margin-bottom: 30px;
+  height: 40%;
+  padding: 5px;
+ }
+ .internship{
+  background-color: #fff6f6;
+  margin-left: 25px;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  width: 140%;
+ }
+ .talent{
+  background-color: #fff6f6;
+  margin-left: 25px;
+  margin-right: 25px;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  width: 140%;
+ }
