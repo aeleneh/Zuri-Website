@@ -1,10 +1,12 @@
-@import url('http://fonts.cdnfonts.com/css/averta-standard');
+@font-face {
+ font-family: 'Averta Standard', sans-serif; 
+ src: url(http://fonts.cdnfonts.com/css/averta-standard);
+} 
 
 * {
  margin: 0;
  padding: 0;
  box-sizing: border-box;
- font-family: 'Averta Standard', sans-serif;
 }
 
 .first {
