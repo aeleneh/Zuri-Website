@@ -197,7 +197,7 @@ a {
 
 .con {
  color: #51494f;
- font-size: 16px;
+ font-size: 18px;
  margin-top: 5px;
 }
 
@@ -222,7 +222,7 @@ a.store {
 
 .follow {
  color: #51494f;
- font-size: 16px;
+ font-size: 18px;
  margin-left: 150px;
  margin-top: 15px;
  margin-bottom: 15px;
@@ -258,10 +258,39 @@ a.store {
 }
 
 @media screen and (max-width: 768px) {
+ body {
+   overflow-x: hidden !important;
+  }
  .third {
-  display: flex;
   flex-direction: column;
-  width: 1000px;
+  width: 1020px;
+  gap: 30px;
   height: 30%;
+ }
+ .last{
+  flex-direction: column;
+ }
+ .logo{
+  text-align: center;
+ }
+ .sandb{
+  display: block;
+  position: relative;
+  left: -10px;
+  }
+ .con{
+  display: inline;
+  position: relative;
+  left: -18px;
+ }
+ .magodo{
+  display: block;
+  position: relative;
+  left: -50px;
+ }
+ .hello{
+  display: block;
+  position: relative;
+  left: -30px;
  }
 }
