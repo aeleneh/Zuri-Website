@@ -1,14 +1,13 @@
 @font-face {
- font-family: 'Averta Standard', sans-serif; 
+ font-family: 'Averta Standard';
  src: url(http://fonts.cdnfonts.com/css/averta-standard);
-} 
+}
 
 * {
  margin: 0;
  padding: 0;
  box-sizing: border-box;
 }
-
 .first {
  width: 100%;
  height: 800px;
