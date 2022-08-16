@@ -1,9 +1,13 @@
-@import url('http://fonts.cdnfonts.com/css/averta-standard');
+@font-face {
+ font-family: Averta;
+ src: url(https://res.cloudinary.com/dafsch2zs/raw/upload/v1596618987/Zuri%20Landing/AvertaDemoPECuttedDemo-Regular_dghpn7.otf);
+}
+
 * {
  margin: 0;
  padding: 0;
  box-sizing: border-box;
- font-family: 'Averta Standard', sans-serif;;
+ font-family: 'Averta', sans-serif;;
 }
 .first {
  width: 100%;
